@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "imessage chatbot",
   "main": "app.js",
-  "scripts": {
-    "test": "npm run test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csjoblom/imessagebot2.git"
   },
   "author": "Chris Sjoblom",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/csjoblom/imessagebot2/issues"
   },
-  "homepage": "https://github.com/csjoblom/imessagebot2#readme"
+  "homepage": "https://github.com/csjoblom/imessagebot2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "forever": "^4.0.3",
+    "imessagemodule": "^0.4.0"
+  }
 }
