@@ -8,13 +8,40 @@
     "url": "git+https://github.com/csjoblom/imessagebot2.git"
   },
   "author": "Chris Sjoblom",
+  "scripts": {
+    "pkg": "pkg .",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "bugs": {
     "url": "https://github.com/csjoblom/imessagebot2/issues"
   },
   "homepage": "https://github.com/csjoblom/imessagebot2#readme",
   "dependencies": {
+    "@devsnowflake/text-emoji-parser": "^1.0.0",
+    "apollo-server": "^3.10.2",
     "dotenv": "^16.0.2",
+    "emoji-short-name": "^2.0.0",
     "forever": "^4.0.3",
-    "imessagemodule": "^0.4.0"
+    "glob": "^8.0.3",
+    "graphql": "^16.6.0",
+    "imessagemodule": "^0.4.0",
+    "osa2": "^0.2.3",
+    "running-at": "^0.3.22",
+    "sqlite3": "^5.0.11"
+  },
+  "bin": "app.js",
+  "pkg": {
+    "scripts": "*.js",
+    "assets": [
+      "node_modules/sqlite3/lib/binding/napi-v3-darwin-x64/node_sqlite3.node"
+    ],
+    "targets": [
+      "node18-mac-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
   }
 }
