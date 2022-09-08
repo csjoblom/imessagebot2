@@ -1,0 +1,19 @@
+{
+  "name": "imessagebot2",
+  "version": "1.0.0",
+  "description": "imessage chatbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csjoblom/imessagebot2.git"
+  },
+  "author": "Chris Sjoblom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csjoblom/imessagebot2/issues"
+  },
+  "homepage": "https://github.com/csjoblom/imessagebot2#readme"
+}
